@@ -78,6 +78,11 @@ public class adminIndex extends javax.swing.JFrame {
         jButton2.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/result_management_portal/icons8-back-40.png"))); // NOI18N
         jButton2.setText("Back");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(668, 451, -1, 45));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/result_management_portal/old-books-436498_1280.jpg"))); // NOI18N
@@ -107,6 +112,11 @@ public class adminIndex extends javax.swing.JFrame {
     private void UsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsernameActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_UsernameActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        setVisible(false);
+        new index().setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

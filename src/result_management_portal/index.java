@@ -75,7 +75,8 @@ public class index extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void STUDENTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_STUDENTActionPerformed
-        
+        setVisible(false);
+        new studentAdmin().setVisible(true);
     }//GEN-LAST:event_STUDENTActionPerformed
 
     private void ADMINActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ADMINActionPerformed
